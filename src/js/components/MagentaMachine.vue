@@ -133,13 +133,18 @@
             await this.loadSample(14, 'vocals', 'vocals_nikki', '/audio/vocals_nikki.mp3')
             await this.loadSample(15, 'other', 'other_nikki', '/audio/other_nikki.mp3')
 
+            await this.loadSample(16, 'bass', 'bass_boum_bap', '/audio/bass_boum_bap.mp3')
+            await this.loadSample(17, 'drums', 'drums_boum_bap', '/audio/drums_boum_bap.mp3')
+            await this.loadSample(18, 'vocals', 'vocals_boum_bap', '/audio/vocals_boum_bap.mp3')
+            await this.loadSample(19, 'other', 'other_boum_bap', '/audio/other_boum_bap.mp3')
+
             await this.loadSample( 1, 'bass', 'bass_2019', '/audio/bass_2019.mp3')
             await this.loadSample( 2, 'drums', 'drums_2019', '/audio/drums_2019.mp3')
             await this.loadSample( 3, 'other', 'other_2019', '/audio/other_2019.mp3')
 
-            // await this.loadSample(16, 'drums', 'drums_longfeu', '/audio/drums_longfeu.mp3')
-            // await this.loadSample(17, 'vocals', 'vocals_longfeu', '/audio/vocals_longfeu.mp3')
-            // await this.loadSample(18, 'other', 'other_longfeu', '/audio/other_longfeu.mp3')
+            // await this.loadSample(20, 'drums', 'drums_longfeu', '/audio/drums_longfeu.mp3')
+            // await this.loadSample(21, 'vocals', 'vocals_longfeu', '/audio/vocals_longfeu.mp3')
+            // await this.loadSample(22, 'other', 'other_longfeu', '/audio/other_longfeu.mp3')
 
             setTimeout(this.start, 100);
         },
