@@ -29,6 +29,10 @@ npm run build
 
 This will create a `dist` folder with all the files needed to deploy the app.
 
+## Notes
+
+- The sound files are included in the repository. You can add your own sound files to the `public/audio` folder and update the `mounted` function in `src/components/Machine.vue` to load the new files.
+
 ## Credits
 
 - [Simon Rubuano](https://github.com/mgkprod)
